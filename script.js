@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
             heart.className = 'heart';
             heart.innerHTML = '❤️';
             heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.top = 0;
             document.body.appendChild(heart);
             setTimeout(() => heart.remove(), 3000);
         }
